@@ -1,10 +1,12 @@
+# program to get eligble for vote in india
+
 age=int(input("enter age: "))
 nation=input("enter nationality: ")
 
 if(age>=18):
     
     if(nation == "indian"):
-        print("eligble for vote")
+        print("eligble for vote")       # nested conditional
     elif(nation == "INDIAN"):
         print("eligble for vote")
     else:
@@ -13,4 +15,4 @@ if(age>=18):
 
 else:
     print("not eligble for vote \n age must be 18 or above!!")
-s
+
