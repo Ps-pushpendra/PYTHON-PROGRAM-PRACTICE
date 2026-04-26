@@ -1,3 +1,5 @@
+# python program to count the letters, digits, and special character of password
+
 password = input("enter password:")
 letter = digits = special = 0
 for ch in password:
