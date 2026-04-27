@@ -18,8 +18,6 @@ for i in range(len(seats)):
            empty +=1    
     print()
 print()    
-    
-    
         
 print("total booked seats: ",booked)
 print("total empty seats: ",empty)
